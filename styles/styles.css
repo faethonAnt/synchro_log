@@ -21,11 +21,6 @@ body {
   overflow-x: hidden;
 }
 
-/* ══════════════════════════════
-   PAGE SYSTEM
-══════════════════════════════ */
-.page { display: none; }
-.page.active { display: block; animation: fadeIn .45s ease both; }
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(14px); }

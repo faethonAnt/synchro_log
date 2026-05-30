@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Επικοινωνία – Σύγχρονο ΚΕΠ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/styles.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0FLPC3F7KB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0FLPC3F7KB');
+  </script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="index.html">
+    <img src="../images/images.jpg" alt="Σύγχρονη Λογιστική Logo" />
+    <div class="nav-logo-text">My Modern<br><span>KEP</span></div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-page="home">Αρχική</a></li>
+    <li><a href="services.html" data-page="services">Υπηρεσίες</a></li>
+  </ul>
+  <a class="nav-cta active" href="contact.html">Επικοινωνήστε μαζί μας</a>
+</nav>
+
+<div class="contact-layout">
+
+  <div class="contact-info-panel">
+    <p class="page-hero-tag">Επικοινωνήστε μαζί μας</p>
+    <h2>Είμαστε εδώ<br>για εσάς.</h2>
+    <p>Συμπληρώστε τη φόρμα και θα επικοινωνήσουμε μαζί σας εντός μίας εργάσιμης ημέρας. Δωρεάν αρχική αξιολόγηση για νέους πελάτες.</p>
+
+    <div class="contact-det">
+      <div class="contact-det-icon">📍</div>
+      <div>
+        <div class="contact-det-lbl">Διεύθυνση</div>
+        <div class="contact-det-val">Σοφοκλή Βενιζέλου 72<br>Τ.Κ. 12131, Περιστέρι</div>
+      </div>
+    </div>
+
+    <div class="contact-det">
+      <div class="contact-det-icon">📞</div>
+      <div>
+        <div class="contact-det-lbl">Τηλέφωνο</div>
+        <div class="contact-det-val">+30 210 000 0000</div>
+      </div>
+    </div>
+
+    <div class="contact-det">
+      <div class="contact-det-icon">✉️</div>
+      <div>
+        <div class="contact-det-lbl">Email</div>
+        <div class="contact-det-val">info@synchroni-logistiki.gr</div>
+      </div>
+    </div>
+
+    <div class="hours-block">
+      <div class="hours-lbl">Ώρες Λειτουργίας</div>
+      <div class="hours-row"><span>Δευτέρα – Παρασκευή</span><span>9:00 – 17:00</span></div>
+      <div class="hours-row"><span>Κυριακή</span><span>Κλειστά</span></div>
+    </div>
+
+    <!-- GOOGLE MAPS -->
+    <div class="map-section">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12576.501077147783!2d23.689460791076648!3d37.99753846026745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a33562a462df%3A0x1bcb904fb762e04e!2zzqPOv8-Gzr_Ous67zq4gzpLOtc69zrnOts6tzrvOv8-FIDcyLCDOoM61z4HOuc-Dz4TOrc-BzrkgMTIxIDMx!5e0!3m2!1sel!2sgr!4v1779615122144!5m2!1sel!2sgr" width="100%" height="450" style="border:none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="contact-form-panel">
+    <h2 class="form-title">Στείλτε μας μήνυμα</h2>
+    <div id="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Όνομα</label>
+          <input type="text" id="fname" placeholder="Γιώργος" />
+        </div>
+        <div class="form-group">
+          <label>Επώνυμο</label>
+          <input type="text" id="lname" placeholder="Παπαδόπουλος" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" id="email" placeholder="email@example.com" />
+      </div>
+      <div class="form-group">
+        <label>Τηλέφωνο</label>
+        <input type="tel" id="phone" placeholder="+30 69x xxx xxxx" />
+      </div>
+      <div class="form-group">
+        <label>Υπηρεσία Ενδιαφέροντος</label>
+        <select id="service">
+          <option value="">— Επιλέξτε υπηρεσία —</option>
+          <option>Τήρηση Λογιστικών Βιβλίων</option>
+          <option>Φορολογικές Δηλώσεις</option>
+          <option>ΦΠΑ &amp; Περιοδικές Δηλώσεις</option>
+          <option>Μισθοδοσία &amp; ΕΦΚΑ</option>
+          <option>Ίδρυση Εταιρείας</option>
+          <option>Επιχειρηματικές Συμβουλές</option>
+          <option>Άλλο / Δεν γνωρίζω</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Μήνυμα</label>
+        <textarea id="message" placeholder="Περιγράψτε σύντομα την ανάγκη σας…"></textarea>
+      </div>
+      <button class="form-submit" onclick="submitForm()">Αποστολή Μηνύματος</button>
+    </div>
+    <div class="form-success" id="form-success">
+      <div class="form-success-icon">✓</div>
+      <h3>Το μήνυμά σας εστάλη!</h3>
+      <p>Σας ευχαριστούμε. Θα επικοινωνήσουμε μαζί σας εντός μίας εργάσιμης ημέρας.</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="../script/index.js"></script>
+
+</body>
+</html>
